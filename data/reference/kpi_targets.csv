@@ -1,0 +1,7 @@
+﻿kpi,target,direction,description
+Plan Attainment,0.95,>=,Actual output / planned output
+Defect Rate,0.02,<=,Defect units / actual output
+Availability,0.9,>=,1 - downtime / scheduled minutes
+Output per Employee,65,>=,Actual output / present headcount
+Overtime Rate,0.08,<=,Overtime / total labor hours
+Absence Rate,0.04,<=,Absent / planned headcount

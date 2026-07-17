@@ -1,0 +1,18 @@
+﻿column,type,required,description
+operation_date,date,Yes,Production date
+line_id,text,Yes,Production line code
+line_name,text,Yes,Production line name
+process,text,Yes,"Assembly, Testing, or Packaging"
+shift,text,Yes,Day or Night
+planned_output,number,Yes,Planned units
+actual_output,number,Yes,Actual units
+defect_units,number,Yes,Defective units
+downtime_minutes,number,Yes,Production downtime
+scheduled_minutes,number,Yes,Scheduled production minutes
+planned_headcount,number,Yes,Planned employees
+present_headcount,number,Yes,Employees present
+absent_employees,number,Yes,Absent employees
+overtime_hours,number,Yes,Overtime hours
+regular_hours,number,Yes,Regular labor hours
+total_labor_hours,number,Yes,Regular plus overtime hours
+remarks,text,No,Operational notes
